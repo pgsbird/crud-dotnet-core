@@ -4,6 +4,7 @@ using AutoMapper;
 using LegalCasesMicrosservice.Data;
 using LegalCasesMicrosservice.Dtos;
 using LegalCasesMicrosservice.Models;
+using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.JsonPatch;
 using Microsoft.AspNetCore.Mvc;
 
