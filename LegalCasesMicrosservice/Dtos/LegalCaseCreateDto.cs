@@ -6,14 +6,12 @@ namespace LegalCasesMicrosservice.Models
     public class LegalCaseCreateDto
     {
         [Required]
-        [MaxLength(27)]
+        [MaxLength(25)]
         public string CaseNumber{get;set;}
         [Required]
         public string CourtName { get; set; }
         [Required]
         public string NameOfResponsible { get; set; }
-        [Required]
-        public DateTime RegistrationDate { get; set; }
         
     }
 }

@@ -10,7 +10,7 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace LegalCasesMicrosservice.Migrations
 {
     [DbContext(typeof(LegalCaseContext))]
-    [Migration("20210419013826_InitialMigration")]
+    [Migration("20210419033212_InitialMigration")]
     partial class InitialMigration
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -30,8 +30,8 @@ namespace LegalCasesMicrosservice.Migrations
 
                     b.Property<string>("CaseNumber")
                         .IsRequired()
-                        .HasMaxLength(27)
-                        .HasColumnType("nvarchar(27)");
+                        .HasMaxLength(25)
+                        .HasColumnType("nvarchar(25)");
 
                     b.Property<string>("CourtName")
                         .IsRequired()

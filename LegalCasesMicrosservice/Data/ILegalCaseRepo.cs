@@ -16,5 +16,6 @@ namespace LegalCasesMicrosservice.Data
         void UpdateLegalCase(LegalCase lcase);
 
         void DeleteLegalCase(LegalCase lcase);
+        bool isUniqueCase(string caseNumber);
     }
 }

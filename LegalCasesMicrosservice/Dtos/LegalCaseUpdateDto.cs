@@ -6,7 +6,7 @@ namespace LegalCasesMicrosservice.Models
     public class LegalCaseUpdateDto
     {  
         [Required]
-        [MaxLength(27)]
+        [MaxLength(25)]
         public string CaseNumber{get;set;}
         [Required]
         public string CourtName { get; set; }

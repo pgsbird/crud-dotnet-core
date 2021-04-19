@@ -55,5 +55,10 @@ namespace LegalCasesMicrosservice.Data
             }
             _context.LegalCases.Update(lcase);
         }
+
+        public bool isUniqueCase(string caseNumber)
+        {
+            return !_context.LegalCases.Any(x => x.CaseNumber == caseNumber);
+        }
     }
 }

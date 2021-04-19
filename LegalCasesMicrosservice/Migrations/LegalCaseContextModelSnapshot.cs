@@ -28,8 +28,8 @@ namespace LegalCasesMicrosservice.Migrations
 
                     b.Property<string>("CaseNumber")
                         .IsRequired()
-                        .HasMaxLength(27)
-                        .HasColumnType("nvarchar(27)");
+                        .HasMaxLength(25)
+                        .HasColumnType("nvarchar(25)");
 
                     b.Property<string>("CourtName")
                         .IsRequired()

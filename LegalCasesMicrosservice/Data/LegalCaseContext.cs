@@ -9,9 +9,6 @@ namespace LegalCasesMicrosservice.Data
         {
 
         }
-
-
-
         public DbSet<LegalCase> LegalCases { get; set; }
         
         protected override void OnModelCreating(ModelBuilder builder)

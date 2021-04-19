@@ -8,7 +8,7 @@ namespace LegalCasesMicrosservice.Models
         [Key]
         public int LegalCaseId { get; set; }      
         [Required]
-        [MaxLength(27)]
+        [MaxLength(25)]
         public string CaseNumber{get;set;}
         [Required]
         public string CourtName { get; set; }

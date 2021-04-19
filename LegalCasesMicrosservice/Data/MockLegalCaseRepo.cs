@@ -48,6 +48,11 @@ namespace LegalCasesMicrosservice.Data
             RegistrationDate=new DateTime(2021,04,19)};
         }
 
+        public bool isUniqueCase(string caseNumber)
+        {
+            throw new NotImplementedException();
+        }
+
         public bool SaveChanges()
         {
             throw new NotImplementedException();

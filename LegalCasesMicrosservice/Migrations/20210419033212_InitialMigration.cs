@@ -13,7 +13,7 @@ namespace LegalCasesMicrosservice.Migrations
                 {
                     LegalCaseId = table.Column<int>(type: "int", nullable: false)
                         .Annotation("SqlServer:Identity", "1, 1"),
-                    CaseNumber = table.Column<string>(type: "nvarchar(27)", maxLength: 27, nullable: false),
+                    CaseNumber = table.Column<string>(type: "nvarchar(25)", maxLength: 25, nullable: false),
                     CourtName = table.Column<string>(type: "nvarchar(max)", nullable: false),
                     NameOfResponsible = table.Column<string>(type: "nvarchar(max)", nullable: false),
                     RegistrationDate = table.Column<DateTime>(type: "datetime2", nullable: false)
