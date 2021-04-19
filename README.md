@@ -1,5 +1,4 @@
-# crud-dotnet-core
-CRUD .NET Core + Validation data + Tests
+# CRUD .NET Core + Validation data + Tests
 
 About this project
 The goal of this task is to evaluate your coding skills and what you value when creating a new software. Besides the predefined requirements, feel free to improve or
